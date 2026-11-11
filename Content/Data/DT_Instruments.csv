@@ -1,0 +1,7 @@
+﻿Name,InstrumentId,DisplayName,Description,MassKg,PowerDrawW,CostKUSD,DataRateGbitDay,ScienceValue,TechLevel,ObjectiveTags
+Camera_HiRes,Camera_HiRes,High-Res Camera,Optical imager for surface mapping,4.5,12,45,2.5,35,1,"(MarsWater,EarthObs,MoonMap)"
+Spectrometer,Spectrometer,IR Spectrometer,Mineral composition analysis,6.2,18,80,4.0,50,2,"(MarsWater,MoonMap)"
+Radar_SAR,Radar_SAR,Synthetic Aperture Radar,Surface penetration radar,12.0,40,150,8.0,60,3,"(MoonMap,EarthObs)"
+Particle_Det,Particle_Det,Particle Detector,Charged particle measurements,2.1,6,30,1.0,25,1,"(SpaceWeather)"
+Magnetometer,Magnetometer,Fluxgate Magnetometer,Magnetic field measurements,1.8,4,25,0.5,20,1,"(SpaceWeather,MoonMap)"
+Radiometer,Radiometer,Microwave Radiometer,Atmospheric temperature/humidity,5.0,15,60,3.0,40,2,"(EarthObs)"

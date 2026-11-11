@@ -1,0 +1,11 @@
+﻿Name,ComponentId,DisplayName,Description,Category,MassKg,PowerGenW,PowerDrawW,CostKUSD,DataCapacityGbitDay,Reliability
+Struct_Al6061,Struct_Al6061,Aluminum Structure,Primary structure frame,Structure,15.0,0,0,20,0,0.95
+SolarPanel_Small,SolarPanel_Small,Small Solar Array,100W class solar panel,PowerGeneration,3.0,100,0,35,0,0.98
+SolarPanel_Large,SolarPanel_Large,Large Solar Array,400W class solar panel,PowerGeneration,9.0,400,0,90,0,0.98
+Battery_LiIon,Battery_LiIon,Li-Ion Battery Pack,500Wh storage,PowerStorage,4.0,0,0,25,0,0.97
+Comms_UHF,Comms_UHF,UHF Transceiver,Low-rate telemetry,Communications,2.0,0,5,15,2.0,0.96
+Comms_XBand,Comms_XBand,X-Band Transmitter,High-rate data downlink,Communications,5.5,0,25,70,20.0,0.95
+ADCS_Reaction,ADCS_Reaction,Reaction Wheels,3-axis attitude control,ADCS,3.5,0,15,40,0,0.97
+OBC_Flight,OBC_Flight,Flight Computer,Onboard data processing,OBC,2.0,0,8,30,0,0.99
+Thermal_Basic,Thermal_Basic,Passive Thermal,MLI and radiators,Thermal,2.5,0,0,12,0,0.95
+Prop_Monoprop,Prop_Monoprop,Monoprop Thruster,Orbit maintenance,Propulsion,6.0,0,10,45,0,0.96

@@ -1,0 +1,7 @@
+﻿Name,OrbitId,DisplayName,Description,AltitudeKm,InclinationDeg,Coverage,CommsWindow,ExpectedLifetimeMonths,LaunchCostFactor
+LEO_400,LEO_400,Low Earth Orbit 400km,Standard LEO for Earth obs,400,51.6,0.4,0.35,60,1.0
+SSO_500,SSO_500,Sun-Synchronous 500km,Consistent lighting for imaging,500,97.4,0.5,0.4,72,1.1
+MEO_20000,MEO_20000,Medium Earth Orbit 20000km,GPS-like orbit,20000,55,0.9,0.6,120,2.5
+GEO,GEO,Geostationary Orbit,Fixed ground coverage,35786,0,0.33,0.95,180,4.0
+HEO_Molniya,HEO_Molniya,Highly Elliptical Orbit,Long dwell over high latitudes,500,63.4,0.7,0.5,84,2.0
+Lunar_NRHO,Lunar_NRHO,Near Rectilinear Halo Orbit,Cislunar operations,70000,0,0.6,0.4,120,6.0

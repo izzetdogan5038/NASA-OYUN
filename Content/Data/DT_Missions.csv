@@ -1,0 +1,5 @@
+﻿Name,MissionId,DisplayName,Description,BudgetKUSD,MassCapKg,MinScienceValue,RequiredLifetimeMonths,ObjectiveTags,Difficulty
+MarsWater,MarsWater,Mars Water Scout,Search for subsurface water on Mars,8000,1500,60,24,"(MarsWater)",2
+EarthObs,EarthObs,Earth Observation Demo,Demonstrate LEO Earth imaging,3000,500,40,12,"(EarthObs)",1
+MoonMap,MoonMap,Lunar Surface Mapper,Map lunar south pole,12000,2000,70,36,"(MoonMap)",3
+SpaceWeather,SpaceWeather,Space Weather Monitor,Monitor solar wind and radiation,4000,800,30,24,"(SpaceWeather)",1

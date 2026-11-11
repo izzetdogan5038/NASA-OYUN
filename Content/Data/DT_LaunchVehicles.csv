@@ -1,0 +1,5 @@
+﻿Name,VehicleId,DisplayName,Description,PayloadLEOKg,PayloadGTOkg,CostMUSD,ReachableOrbits
+Falcon9,Falcon9,Falcon 9,Reusable medium-lift launcher,22800,8300,62,"(LEO,MEO,GTO,HEO)"
+Electron,Electron,Electron,Small satellite launcher,300,0,7.5,"(LEO,SSO)"
+AtlasV,AtlasV,Atlas V 551,Heavy-lift launcher,18850,8900,110,"(LEO,MEO,GTO,HEO,GEO)"
+SLS_Block1,SLS_Block1,Space Launch System,Super heavy-lift,95000,0,2000,"(LEO,MEO,GTO,HEO,GEO,Lunar)"
