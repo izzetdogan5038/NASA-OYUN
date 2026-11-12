@@ -1,0 +1,7 @@
+﻿Name,EventId,Title,Description,Probability,Severity,PowerDeltaW,DataLossGbit,ReliabilityHit,MinDifficulty
+SolarStorm,SolarStorm,Solar Storm,Increased radiation reduces power output,0.05,0.6,-0.25,0,0.05,1
+SensorFault,SensorFault,Instrument Fault,An instrument reports degraded data,0.08,0.4,0,2.0,0.03,1
+CommDropout,CommDropout,Communications Dropout,Temporary loss of downlink window,0.10,0.3,0,1.0,0,1
+Micrometeoroid,Micrometeoroid,Micrometeoroid Impact,Minor structural damage,0.02,0.7,0,0,0.08,2
+SoftwareGlitch,SoftwareGlitch,Onboard Software Glitch,Temporary OBC reboot,0.06,0.4,-5,1.5,0.04,1
+ThermalAnomaly,ThermalAnomaly,Thermal Anomaly,Unexpected temperature spike,0.04,0.5,-10,0,0.06,2
