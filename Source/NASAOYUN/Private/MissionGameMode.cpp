@@ -8,6 +8,7 @@ AMissionGameMode::AMissionGameMode()
 {
 	GameStateClass = AMissionGameState::StaticClass();
 	PlayerStateClass = AMissionPlayerState::StaticClass();
+	PlayerControllerClass = AMissionPlayerController::StaticClass();
 }
 
 void AMissionGameMode::BeginPlay()

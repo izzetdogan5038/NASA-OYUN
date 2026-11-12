@@ -7,6 +7,7 @@
 #include "MissionTypes.h"
 #include "MissionGameState.h"
 #include "MissionPlayerState.h"
+#include "MissionPlayerController.h"
 #include "MissionGameMode.generated.h"
 
 UENUM(BlueprintType)
