@@ -5,6 +5,8 @@
 
 AMissionGameMode::AMissionGameMode()
 {
+	GameStateClass = AMissionGameState::StaticClass();
+	PlayerStateClass = AMissionPlayerState::StaticClass();
 }
 
 void AMissionGameMode::BeginPlay()
@@ -22,13 +24,11 @@ void AMissionGameMode::SetPhase(EMissionPhase NewPhase)
 void AMissionGameMode::StartSimulation()
 {
 	SetPhase(EMissionPhase::Simulation);
-	// Simulation tick & random events handled by MissionSim subsystem (TODO)
 }
 
 void AMissionGameMode::EvaluateMission()
 {
 	SetPhase(EMissionPhase::Evaluation);
-	// Scoring logic (TODO): combine science, efficiency, reliability, collaboration
 	FinalScore.TotalScore = FinalScore.ScienceScore + FinalScore.EfficiencyScore + FinalScore.ReliabilityScore + FinalScore.CollaborationScore;
 	SetPhase(EMissionPhase::Complete);
 }

@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "MissionTypes.h"
+#include "MissionGameState.h"
+#include "MissionPlayerState.h"
 #include "MissionGameMode.generated.h"
 
 UENUM(BlueprintType)
