@@ -6,6 +6,7 @@
 void AMissionPlayerState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-	DOREPLIFETIME(AMissionPlayerState, Role);
+	DOREPLIFETIME(AMissionPlayerState, MissionRole);
 	DOREPLIFETIME(AMissionPlayerState, ContributionScore);
 }
+

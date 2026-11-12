@@ -10,7 +10,7 @@ communications and lifetime trade-offs. Supports single-player and team play
 (up to 4 players with distinct roles).
 
 ## Engine and Stack
-- Unreal Engine 5.4 (C++ + Blueprints)
+- Unreal Engine 5.8 (C++ + Blueprints)
 - UMG for UI, DataTables for content, Listen Server for multiplayer
 
 ## Project Layout
@@ -21,7 +21,7 @@ communications and lifetime trade-offs. Supports single-player and team play
     Docs/                        Team plan, task assignment, roadmap
 
 ## How to open
-1. Install Unreal Engine 5.4 via Epic Games Launcher.
+1. Install Unreal Engine 5.8 via Epic Games Launcher.
 2. Double-click NASA-OYUN.uproject (Generate Visual Studio project files).
 3. Build the NASAOYUN module (Development Editor).
 4. Import CSVs in Content/Data/ as DataTables choosing the matching row struct:
@@ -39,3 +39,4 @@ See Docs/TEAM_PLAN.md.
 
 ## License
 MIT (code). Asset licenses vary.
+

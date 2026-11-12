@@ -1,6 +1,6 @@
 ﻿{
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "5.8",
 	"Category": "Games",
 	"Description": "AstraTeam - Space Mission Design Game for NASA Space Apps 2026 (Kayseri). Interactive mission design, resource management and simulation.",
 	"Modules": [
@@ -17,3 +17,4 @@
 		}
 	]
 }
+

@@ -24,10 +24,11 @@ class NASAOYUN_API AMissionPlayerState : public APlayerState
 
 public:
 	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Mission")
-	EMissionRole Role = EMissionRole::None;
+	EMissionRole MissionRole = EMissionRole::None;
 
 	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Mission")
 	float ContributionScore = 0.f;
 
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 };
+

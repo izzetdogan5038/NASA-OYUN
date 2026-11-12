@@ -4,7 +4,7 @@
 #include "Widgets/SBoxPanel.h"
 #include "Widgets/Text/STextBlock.h"
 #include "Widgets/Input/SButton.h"
-#include "Widgets/Progress/SProgressBar.h"
+#include "Widgets/Notifications/SProgressBar.h"
 #include "Widgets/Layout/SScrollBox.h"
 #include "Widgets/Layout/SBorder.h"
 #include "Styling/CoreStyle.h"
@@ -189,3 +189,4 @@ void UMissionResultsWidget::ShowResults_Implementation(const FMissionScore& Scor
 		DetailsText->SetText(FText::FromString(D));
 	}
 }
+

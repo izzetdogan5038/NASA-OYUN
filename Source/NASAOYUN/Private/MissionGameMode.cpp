@@ -1,6 +1,7 @@
 ﻿// Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "MissionGameMode.h"
+#include "NASAOYUN.h"
 #include "Engine/DataTable.h"
 
 AMissionGameMode::AMissionGameMode()
@@ -32,3 +33,4 @@ void AMissionGameMode::EvaluateMission()
 	FinalScore.TotalScore = FinalScore.ScienceScore + FinalScore.EfficiencyScore + FinalScore.ReliabilityScore + FinalScore.CollaborationScore;
 	SetPhase(EMissionPhase::Complete);
 }
+
