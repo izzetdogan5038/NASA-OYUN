@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "MissionTypes.h"
 #include "MissionPlayerController.generated.h"
 
 UCLASS()
@@ -20,7 +21,17 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Mission|UI")
 	TSubclassOf<class UMissionDesignerWidget> DesignerWidgetClass;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Mission|UI")
+	TSubclassOf<class UMissionSimulationWidget> SimulationWidgetClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Mission|UI")
+	TSubclassOf<class UMissionResultsWidget> ResultsWidgetClass;
+
+	void RunDemoMission();
+
 protected:
 	UPROPERTY() class UMissionHUDWidget* HUDWidget = nullptr;
 	UPROPERTY() class UMissionDesignerWidget* DesignerWidget = nullptr;
+	UPROPERTY() class UMissionSimulationWidget* SimulationWidget = nullptr;
+	UPROPERTY() class UMissionResultsWidget* ResultsWidget = nullptr;
 };
